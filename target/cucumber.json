@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "search the product",
+        "description": "",
+        "id": "search-the-argos-product;search-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8248845200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the browser and search the searchbar",
+            "match": {
+              "location": "SearchStep.open_the_browser_and_search_the_searchbar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5631605500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "search the product Nike",
+            "match": {
+              "location": "SearchStep.search_the_product_Nike()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16699357500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "hit the search button",
+            "match": {
+              "location": "SearchStep.hit_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934013400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "show the respective product item",
+            "match": {
+              "location": "SearchStep.show_the_respective_product_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search the argos product",
+    "description": "",
+    "id": "search-the-argos-product",
+    "keyword": "Feature",
+    "uri": "SearchFeature.feature"
+  }
+]
